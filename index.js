@@ -38,7 +38,7 @@ async function handleRequest(request) {
     'Connection': 'Keep-Alive'
   }
 
-  // Tambahkan header tambahan jika diperlukan.
+  // Tambahkan header tambahan jika diperlukan
   const headers = new Headers(baoziHeaders)
 
   try {
